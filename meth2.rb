@@ -1,7 +1,7 @@
 def add(a, b)
 c = a + b
 puts "the sum of #{a} plus #{b} equals #{c}."
-return a + b
+return c = a + b
 end
 
 add(4, 5)
